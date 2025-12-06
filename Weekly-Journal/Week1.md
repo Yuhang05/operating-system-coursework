@@ -133,3 +133,13 @@ This architecture supports both external connectivity (via NAT) and an isolated 
 [1] J. Wallen, “10 Reasons To Choose Ubuntu Server Over the Competition,” TheNewStack, Nov. 24, 2024. [Online]. Available: https://thenewstack.io/10-reasons-to-choose-ubuntu-server-over-the-competition/  [Accessed: Nov. 7, 2025].
 
 [2] “Debian vs Ubuntu: Which is best?,” ServerAcademy.com, Jun. 4, 2024. [Online]. Available: https://serveracademy.com/blog/debian-vs-ubuntu-which-is-best/. [Accessed: Nov. 7, 2025].
+
+---
+[Home](../index.md) |
+[Week 1](Week1.md) |
+[Week 2](Week2.md) |
+[Week 3](Week3.md) |
+[Week 4](Week4.md) |
+[Week 5](Week5.md) |
+[Week 6](Week6.md) |
+[Week 7](Week7.md)
