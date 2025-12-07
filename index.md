@@ -1,31 +1,36 @@
-# CMPN202 Operating Systems Coursework Journal
+# Operating Systems Coursework Journal  
+**Student:** Yuhang Wang  
+**Module:** CMPN202 – Operating Systems  
+**Academic Year:** 2024–2025  
 
-Welcome to my Operating Systems coursework journal.  
-This site documents my work across **7 weeks**, including:
+Welcome to my Operating Systems Coursework Journal.  
+This GitHub Pages site documents my weekly progress across seven weeks, including system setup, security configuration, performance testing, automation, monitoring, and final service deployment.
 
-- Virtual machine planning and setup
-- Secure remote administration (SSH + firewall)
-- Performance testing workloads
-- Service configuration, monitoring, logging, and hardening
-- Final system testing and reflection
+Each week contains:
+- Technical configurations  
+- Screenshots and evidence  
+- Reflections  
+- Supporting documentation  
+- References (where required)
 
----
-
-## Table of Contents
-
-- [Week 1 – System Planning & Distribution Selection](Weekly-Journal/Week1.md)
-- [Week 2 – Security Planning & SSH Hardening](Weekly-Journal/Week2.md)
-- [Week 3 – Performance Workload & Tool Selection](Weekly-Journal/Week3.md)
-- [Week 4 – Service Configuration & Firewall Rules](Weekly-Journal/Week4.md)
-- [Week 5 – Monitoring, Logging & Alerting](Weekly-Journal/Week5.md)
-- [Week 6 – Hardening, Backup & Recovery](Weekly-Journal/Week6.md)
-- [Week 7 – Final Validation & Overall Reflection](Weekly-Journal/Week7.md)
+Please use the links below to navigate to each weekly entry.
 
 ---
 
-## How to Navigate
+## 📘 Weekly Journal Index
 
-Use the links above to open each week.  
-Every weekly page also contains navigation links back to this home page and to the other weeks.
+- [Week 1 – System Planning & Distribution Selection](./Weekly-Journal/Week1.md)
+- [Week 2 – Security Configuration & Remote Administration](./Weekly-Journal/Week2.md)
+- [Week 3 – Performance Testing & Monitoring](./Weekly-Journal/Week3.md)
+- [Week 4 – Network Services & Firewall Rules](./Weekly-Journal/Week4.md)
+- [Week 5 – Scheduling, Cron Jobs & Automation](./Weekly-Journal/Week5.md)
+- [Week 6 – Logging, Monitoring & System Health](./Weekly-Journal/Week6.md)
+- [Week 7 – Final Deployment, Hardening & Review](./Weekly-Journal/Week7.md)
+
+---
+
+## About This Site
+This journal is part of coursework requirements and is hosted using **GitHub Pages**.  
+All screenshots, configuration files, and explanations are structured according to weekly tasks as defined in the coursework brief.
 
 ---
