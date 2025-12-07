@@ -8,6 +8,7 @@
 [Week 7](Week7.md)
 
 ---
+
 # System Administration and Secure Access Configuration – Week 2
 
 ## Introduction
@@ -139,6 +140,7 @@ During this week, I encountered several challenges, especially with SSH key-base
 [2] S. H. Ansar, M. Umar, and M. A. Shami, “Fortifying Linux Server and Implementing a Zero Trust Architecture,” MDPI, vol. 10, no. 7, pp. 1–12, 2025. [Online]. Available: https://www.mdpi.com/2673-4591/107/1/99 [Accessed: Nov. 22, 2025]
 
 ---
+
 [Home](../index.md) |
 [Week 1](Week1.md) |
 [Week 2](Week2.md) |
