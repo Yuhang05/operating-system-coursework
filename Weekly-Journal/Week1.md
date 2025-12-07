@@ -8,6 +8,7 @@
 [Week 7](Week7.md)
 
 ---
+
 # System Planning and Distribution Selection – Week 1
 
 ## Introduction
@@ -135,6 +136,7 @@ This architecture supports both external connectivity (via NAT) and an isolated 
 [2] “Debian vs Ubuntu: Which is best?,” ServerAcademy.com, Jun. 4, 2024. [Online]. Available: https://serveracademy.com/blog/debian-vs-ubuntu-which-is-best/. [Accessed: Nov. 7, 2025].
 
 ---
+
 [Home](../index.md) |
 [Week 1](Week1.md) |
 [Week 2](Week2.md) |
