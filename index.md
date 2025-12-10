@@ -1,7 +1,7 @@
 # Operating Systems Coursework Journal  
 **Student:** Yuhang Wang  
 **Module:** CMPN202 – Operating Systems  
-**Academic Year:** 2024–2025  
+**Academic Year:** 2025  
 
 Welcome to my Operating Systems Coursework Journal.  
 This GitHub Pages site documents my weekly progress across seven weeks, including system setup, security configuration, performance testing, automation, monitoring, and final service deployment.
