@@ -1,5 +1,6 @@
 # Operating Systems Coursework Journal  
 **Student:** Yuhang Wang  
+**Student ID** WAN23614422
 **Module:** CMPN202 – Operating Systems  
 **Academic Year:** 2025  
 
@@ -17,7 +18,7 @@ Please use the links below to navigate to each weekly entry.
 
 ---
 
-## 📘 Weekly Journal Index
+## Weekly Journal Index
 
 - [Week 1 – System Planning & Distribution Selection](./Weekly-Journal/Week1.md)
 - [Week 2 – Security Configuration & Remote Administration](./Weekly-Journal/Week2.md)
