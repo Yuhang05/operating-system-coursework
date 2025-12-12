@@ -14,7 +14,7 @@
 ## Introduction
 This week focused on configuring secure remote access to the Ubuntu Server virtual machine and establishing proper system administration practices. I created a new administrative user, configured SSH key-based authentication, adjusted SSH daemon settings, and hardened the firewall using UFW. This ensures secure communication between the workstation and the server while following best security practices.
 
-## Performance Testing Plan – Remote Monitoring & Testing Approach [1]
+## Performance Testing Plan – Remote Monitoring & Testing Approach
 This performance testing plan outlines how remote monitoring and network performance measurements were conducted between the Ubuntu Server and Xubuntu Workstation. The goal is to validate connectivity, measure throughput, and ensure the system performs reliably under typical operational conditions.
 
 ### Remote Monitoring Methodology
@@ -122,7 +122,7 @@ Finally, I verified that SSH login works using the newly created admin user and 
 - Even if someone learns the username, they cannot log in without the private key.  
 - This is significantly more secure than password-based authentication.  
 
-## Threat Model – Security Risks and Mitigation Strategies [2]
+## Threat Model – Security Risks and Mitigation Strategies
 
 | Threat | Description | Impact | Mitigation Strategy |
 |--------|-------------|--------|----------------------|
@@ -135,10 +135,9 @@ Finally, I verified that SSH login works using the newly created admin user and 
 During this week, I encountered several challenges, especially with SSH key-based authentication. At first, I was repeatedly unable to connect, receiving timeout errors and “address already in use” issues when testing with `iperf3`. I also struggled with SSH configuration lines such as enabling and disabling `PasswordAuthentication` and properly restarting the SSH service. Additionally, I learned about managing multiple network adapters in VirtualBox and ensuring the correct interface was being used for communication. By troubleshooting with commands like `lsof`, `ufw status`, and checking host-only adapter IP ranges, I gained a much deeper understanding of Linux remote access, virtual networking, and system administration.  
 
 ## Reference
-[1] V. B. P. Pawar and S. A. Kasbe, “Performance and Information Security Evaluation with Firewalls,” ResearchGate, 2025. [Online]. Available: https://www.researchgate.net/publication/262157151_Performance_and_Information_Security_Evaluation_with_Firewalls [Accessed: Nov. 22, 2025]
+[1] V. B. P. Pawar and S. A. Kasbe, “Performance and Information Security Evaluation with Firewalls,” ResearchGate, 2025. [Online]. Available: https://www.researchgate.net/publication/262157151_Performance_and_Information_Security_Evaluation_with_Firewalls
 
-[2] S. H. Ansar, M. Umar, and M. A. Shami, “Fortifying Linux Server and Implementing a Zero Trust Architecture,” MDPI, vol. 10, no. 7, pp. 1–12, 2025. [Online]. Available: https://www.mdpi.com/2673-4591/107/1/99 [Accessed: Nov. 22, 2025]
-
+[2] S. H. Ansar, M. Umar, and M. A. Shami, “Fortifying Linux Server and Implementing a Zero Trust Architecture,” MDPI, vol. 10, no. 7, pp. 1–12, 2025. [Online]. Available: https://www.mdpi.com/2673-4591/107/1/99
 ---
 
 [Home](../index.md) |
