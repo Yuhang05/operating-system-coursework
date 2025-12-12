@@ -69,9 +69,6 @@ Fedora Server: Up-to-date but not ideal for long-term coursework due to short li
 
 Overall, Ubuntu Server provides the best balance between usability, documentation, performance, and long-term stability.
 
-[1]
-
-
 ## Workstation Configuration Decision
 
 For the workstation, I selected Xubuntu (XFCE desktop environment) instead of a full Ubuntu Desktop.
@@ -95,9 +92,6 @@ Kubuntu (KDE Plasma): Beautiful interface but more resource-intensive.
 Linux Mint: Suitable but unnecessary since Xubuntu already meets all GUI requirements.
 
 Xubuntu provides the most efficient GUI environment for interacting with the Ubuntu Server through SSH and performing coursework tasks.
-
-[2]
-
 
 ## Ping Test (Workstation → Server)
 
@@ -131,9 +125,9 @@ The following commands were executed on the Ubuntu Server VM to document its sys
 This architecture supports both external connectivity (via NAT) and an isolated internal LAN (via Host-only), enabling SSH administration and inter-VM communication required for later weeks (firewall, services, automation, etc.).
 
 ## Reference
-[1] J. Wallen, “10 Reasons To Choose Ubuntu Server Over the Competition,” TheNewStack, Nov. 24, 2024. [Online]. Available: https://thenewstack.io/10-reasons-to-choose-ubuntu-server-over-the-competition/  [Accessed: Nov. 7, 2025].
+[1] J. Wallen, “10 Reasons To Choose Ubuntu Server Over the Competition,” TheNewStack, Nov. 24, 2024. [Online]. Available: https://thenewstack.io/10-reasons-to-choose-ubuntu-server-over-the-competition/.
 
-[2] “Debian vs Ubuntu: Which is best?,” ServerAcademy.com, Jun. 4, 2024. [Online]. Available: https://serveracademy.com/blog/debian-vs-ubuntu-which-is-best/. [Accessed: Nov. 7, 2025].
+[2] “Debian vs Ubuntu: Which is best?,” ServerAcademy.com, Jun. 4, 2024. [Online]. Available: https://serveracademy.com/blog/debian-vs-ubuntu-which-is-best/.
 
 ---
 
