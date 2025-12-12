@@ -1,6 +1,6 @@
 # Operating Systems Coursework Journal  
 **Student:** Yuhang Wang  
-**Student ID** WAN23614422
+**Student ID** WAN23614422  
 **Module:** CMPN202 – Operating Systems  
 **Academic Year:** 2025  
 
