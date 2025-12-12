@@ -191,6 +191,32 @@ From the collected results:
 
 ---
 
+## Performance Data Table
+
+The table below summarises the structured performance measurements collected during baseline testing and after optimisation. All tests were conducted on the Ubuntu Server VM unless otherwise stated.
+
+| Category | Metric | Tool Used | Baseline Result | After Optimisation | Notes |
+|--------|--------|----------|-----------------|-------------------|-------|
+| CPU | Events per second | sysbench cpu | 801.10 events/s | 820.35 events/s | Minor improvement after system tuning |
+| CPU | Avg latency | sysbench cpu | 1.25 ms | 1.20 ms | Slight reduction in processing delay |
+| Memory | Throughput | sysbench memory | 4486.40 MiB/s | 4650.95 MiB/s | Improvement after enabling swap |
+| Memory | Available memory | free -h | 1.3 GiB | 1.5 GiB | Swap reduced memory pressure |
+| Disk I/O | Write speed | sysbench fileio | 350.25 MiB/s | 380.10 MiB/s | Improved filesystem cache utilisation |
+| Disk I/O | Disk usage | df -h | 20% used | 20% used | No change in disk capacity usage |
+| Network | Throughput | iperf3 | Connection timeout | ~1.48 Gbps | Firewall rule corrected |
+| Network | Latency | nc / iperf3 | Timeout | < 2 ms | Measured after firewall adjustment |
+| Web Service | HTTP response time | curl time | ~0.054 s | ~0.041 s | Faster response after optimisation |
+
+---
+
+## Performance Visualisations
+
+A comparative bar chart was used to visualise baseline and optimised performance metrics. The results demonstrate measurable ( tiny :) ) improvements across CPU, memory, and disk performance following system optimisation.
+
+<img width="640" height="480" alt="bar_chart" src="https://github.com/user-attachments/assets/3e1cbf25-382d-400a-a9a8-68b16ad55876" />
+
+---
+
 ## Optimisation Summary
 
 Two clear optimisations were implemented and evaluated:
