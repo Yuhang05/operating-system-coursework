@@ -138,6 +138,7 @@ During this week, I encountered several challenges, especially with SSH key-base
 [1] V. B. P. Pawar and S. A. Kasbe, “Performance and Information Security Evaluation with Firewalls,” ResearchGate, 2025. [Online]. Available: https://www.researchgate.net/publication/262157151_Performance_and_Information_Security_Evaluation_with_Firewalls
 
 [2] S. H. Ansar, M. Umar, and M. A. Shami, “Fortifying Linux Server and Implementing a Zero Trust Architecture,” MDPI, vol. 10, no. 7, pp. 1–12, 2025. [Online]. Available: https://www.mdpi.com/2673-4591/107/1/99
+
 ---
 
 [Home](../index.md) |
