@@ -1,0 +1,54 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.0.3">
+  <diagram name="Page-1" id="_TPF3VkufupqWsy4KEIh">
+    <mxGraphModel dx="861" dy="649" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="413" pageHeight="583" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZmHSwyl7Jtfw0AWVIOoi-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="ZmHSwyl7Jtfw0AWVIOoi-1" target="ZmHSwyl7Jtfw0AWVIOoi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmHSwyl7Jtfw0AWVIOoi-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="ZmHSwyl7Jtfw0AWVIOoi-1" target="ZmHSwyl7Jtfw0AWVIOoi-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmHSwyl7Jtfw0AWVIOoi-1" value="Oracle&lt;br&gt;VirtualBox" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-266" y="162" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmHSwyl7Jtfw0AWVIOoi-6" value="Ubuntu Server VM&lt;div&gt;(CLI environment)&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-386" y="325" width="140" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmHSwyl7Jtfw0AWVIOoi-7" value="Adapter 1: NAT&lt;div&gt;IP: 10.0.2.15&lt;/div&gt;&lt;div&gt;Purpose: Internet Access&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="ZmHSwyl7Jtfw0AWVIOoi-6">
+          <mxGeometry y="30" width="140" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmHSwyl7Jtfw0AWVIOoi-8" value="Adapter 2: Host-Only&lt;div&gt;IP: 192.168.56.103&lt;/div&gt;&lt;div&gt;Purpose: Internal LAN&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="ZmHSwyl7Jtfw0AWVIOoi-6">
+          <mxGeometry y="72" width="140" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmHSwyl7Jtfw0AWVIOoi-10" value="Xubuntu Workstation VM&lt;div&gt;(GUI environment)&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-167" y="325" width="140" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmHSwyl7Jtfw0AWVIOoi-11" value="Adapter 1: NAT&lt;div&gt;IP: 10.0.2.15&lt;/div&gt;&lt;div&gt;Purpose: Internet Access&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="ZmHSwyl7Jtfw0AWVIOoi-10">
+          <mxGeometry y="30" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmHSwyl7Jtfw0AWVIOoi-12" value="Adapter 2: Host-Only&lt;div&gt;IP: 192.168.56.104&lt;/div&gt;&lt;div&gt;Purpose: Internal LAN&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="ZmHSwyl7Jtfw0AWVIOoi-10">
+          <mxGeometry y="70" width="140" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmHSwyl7Jtfw0AWVIOoi-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="ZmHSwyl7Jtfw0AWVIOoi-7" target="ZmHSwyl7Jtfw0AWVIOoi-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-227" y="395" as="sourcePoint" />
+            <mxPoint x="-177" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmHSwyl7Jtfw0AWVIOoi-25" value="&lt;div style=&quot;line-height: 70%;&quot;&gt;&lt;font style=&quot;font-size: 6px; line-height: 70%;&quot;&gt;SSH&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px; line-height: 70%;&quot;&gt;Ping&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="ZmHSwyl7Jtfw0AWVIOoi-23">
+          <mxGeometry x="0.0119" y="-2" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmHSwyl7Jtfw0AWVIOoi-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZmHSwyl7Jtfw0AWVIOoi-26" target="ZmHSwyl7Jtfw0AWVIOoi-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmHSwyl7Jtfw0AWVIOoi-26" value="Host Machine&lt;div&gt;(Windows 11 pro PC)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-266" y="56" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
