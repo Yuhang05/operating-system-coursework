@@ -128,11 +128,6 @@ The monitoring plan included system-level tools to observe performance impact du
 
 ---
 
-# Summary
-This week successfully prepared all required workload applications for performance testing. All tools were installed via SSH, executed to verify functionality, and documented with screenshots. Expected resource profiles and monitoring procedures were also established, ensuring Week 4 testing can be carried out consistently and accurately.
-
----
-
 # Reflection
 During Week 3, I encountered several challenges, especially with iperf3 network testing. The workstation initially failed to connect because the server listener was running on the wrong session. After understanding how host-only networking works in VirtualBox and ensuring the correct process was active, the network test succeeded. This week greatly improved my understanding of workload generation, Linux monitoring commands, and how different subsystems respond to stress.
 
