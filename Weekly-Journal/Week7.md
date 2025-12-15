@@ -103,22 +103,27 @@ The audit produced security suggestions and hardening recommendations related to
 
 <img width="785" height="722" alt="week7_part_of_lynis_scan" src="https://github.com/user-attachments/assets/e41b39c8-d846-4f2e-a1a8-c94cd4fc622a" />
 
-<img width="809" height="717" alt="week7_finish_lynis_scan" src="https://github.com/user-attachments/assets/56eaed32-6842-4d22-94db-6575aafff564" />
-
+<img width="809" height="764" alt="week7_finish_lynis_scan" src="https://github.com/user-attachments/assets/99b2a915-1f10-4bad-9198-2d020789ce7f" />
 
 **Outcome:**  
 No critical vulnerabilities were detected. The system achieved a solid baseline security posture with minor recommendations for future hardening.
 
 ---
 
-## System Update and Patch Status
+### Security Audit Remediation Summary
 
-The system was checked to ensure that all available security updates were applied.
+A full system security audit was conducted using Lynis to evaluate the server configuration.
+The initial hardening index score was approximately 66, which is expected for a minimal server environment designed for coursework purposes.
 
-<img width="703" height="194" alt="week7_check_for_update" src="https://github.com/user-attachments/assets/9f35d297-af7b-4245-a29e-3f39665a7547" />
+Several Lynis recommendations were reviewed, and appropriate remediation actions were applied where suitable, while others were intentionally not implemented due to scope and environment constraints.
 
-
-This confirms that the server is maintained with current security patches.
+| Lynis Finding | Risk Identified | Action Taken | Justification |
+|--------------|----------------|--------------|---------------|
+| SSH root login | Privilege escalation | Root login disabled | Reduces impact of compromised credentials |
+| Password authentication | Brute-force attacks | Disabled password login | SSH key-only authentication enforced |
+| Firewall configuration | Network exposure | Restricted UFW rules to workstation IP | Minimises attack surface |
+| Automatic updates | Unpatched vulnerabilities | Enabled unattended-upgrades | Ensures timely security updates |
+| Mandatory access control | Process compromise | AppArmor enforced | Suitable alternative to SELinux on Ubuntu |
 
 ---
 
@@ -130,6 +135,20 @@ Although the system is securely configured, the following residual risks remain:
 - Regular audits are required to maintain security posture
 
 These risks are considered acceptable given the implemented controls.
+
+---
+
+### Trade-off Analysis Summary
+
+| Trade-off | Decision | Benefit | Cost | Evidence |
+|---------|--------|--------|------|--------|
+| SSH key vs password | Key-only | Strong security | Less convenience | No brute-force attempts |
+| Firewall restriction | IP-limited | Reduced exposure | Initial test failures | iperf timeout resolved |
+| Swap enabled | Stability | Memory stability | Slight disk usage | Reduced memory pressure |
+| Fail2Ban | Auto blocking | Attack prevention | Minor CPU overhead | Service stable |
+| AppArmor | Confinement | Reduced attack impact | Policy complexity | Profiles enforced |
+| Lynis hardening | Compliance | Higher security score | Time to remediate | Score >80 |
+
 
 ---
 
