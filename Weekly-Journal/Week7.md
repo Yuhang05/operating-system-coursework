@@ -152,7 +152,7 @@ These risks are considered acceptable given the implemented controls.
 
 ---
 
-## Summary
+## Reflection
 
 The Week 7 security audit verified that the server is securely configured and compliant with best practices. Network exposure is minimal, access controls are strictly enforced, and security monitoring mechanisms are active. The audit demonstrates a well-hardened system with clear documentation and justified service usage.
 
