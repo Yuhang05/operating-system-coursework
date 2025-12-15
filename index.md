@@ -12,7 +12,7 @@ Each week contains:
 - Screenshots and evidence  
 - Reflections  
 - Supporting documentation  
-- References (where required)
+- References
 
 Please use the links below to navigate to each weekly entry.
 
